@@ -16,4 +16,5 @@ require (
 	github.com/stretchr/testify v1.5.1 // indirect
 	github.com/toolkits/net v0.0.0-20160910085801-3f39ab6fe3ce
 	golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
+	gopkg.in/ldap.v3 v3.1.0
 )

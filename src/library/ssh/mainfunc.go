@@ -43,6 +43,7 @@ func LocalExec(cmd string) sshexec.ExecResult {
 	execResult.StartTime = time.Now()
 	execResult.Command = cmd
 	execCommand := exec.Command("/bin/bash", "-c", cmd)
+	//execCommand := exec.Command("sh", "-c", cmd)
 	var b bytes.Buffer
 	execCommand.Stdout = &b
 	var b1 bytes.Buffer

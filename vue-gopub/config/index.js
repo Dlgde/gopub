@@ -1,6 +1,7 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 var path = require('path')
 
+//导出模块
 module.exports = {
     build: {
         env: require('./prod.env'),
@@ -23,8 +24,9 @@ module.exports = {
     },
     dev: {
         env: require('./dev.env'),
-        port: 3000,
+        port: 3010,
         autoOpenBrowser: true,
+        productionTip:true,
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         proxyTable: {},
